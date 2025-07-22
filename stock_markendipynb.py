@@ -11,7 +11,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="📈 Stock Price Viewer", layout="centered")
-st.banner("📊 Real-Time Stock Price App")
+st.title("📊 Real-Time Stock Price App")
 
 API_KEY = "I0EOJY2NM6D1OFZJ"  # Your Alpha Vantage API Key
 
